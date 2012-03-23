@@ -71,7 +71,7 @@ public:
 };
 
 enum header_type {
-	con, resp, ping, pong, query, queryHit, push
+	con, resp, ping, pong, query, queryHit, push, httpget, httpok
 };
 
 // Convert header_type to a string
